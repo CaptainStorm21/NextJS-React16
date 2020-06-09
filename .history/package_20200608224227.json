@@ -13,6 +13,7 @@
     "dev": "next ",
     "build": "next build",
     "start": "next start"
+
   },
   "repository": {
     "type": "git",

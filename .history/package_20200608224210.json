@@ -11,8 +11,8 @@
   "devDependencies": {},
   "scripts": {
     "dev": "next ",
-    "build": "next build",
-    "start": "next start"
+    "build"
+
   },
   "repository": {
     "type": "git",
