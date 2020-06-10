@@ -9,8 +9,7 @@ export default class Home extends Component {
     try {
       const response = await axios.get("http://jsonplaceholder.typicode.com/users/1");
       userData = response.data;
-      // console.log('getting loaded first')
-      // console.log(userData)
+/
     } catch{
       console.log('error')
      }
