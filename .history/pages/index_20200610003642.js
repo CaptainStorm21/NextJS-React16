@@ -3,7 +3,7 @@ import axios from "axios";
 import MainLayout from "../components/layouts/MainLayout";
 
 export default class Home extends Component {
-  static async getInitialProps({ pathname, query, asPath, req, res }) {
+  static async getInitialProps(context) {
     let userData;
 
     try {
@@ -20,12 +20,7 @@ export default class Home extends Component {
     //   .then(response => {
     //                             console.log(response.data)
     //                           })
-    // console.log(context);
 
-    console.log(pathname);
-    console.log(res);
-    console.log(req);
-    
     return {
       user: {
         name: "Francis",
@@ -36,7 +31,7 @@ export default class Home extends Component {
   }
   constructor(props) {
     super(props);
-    // console.log("constructor");
+    console.log("constructor");
     console.log(this.props.user);
     this.state = {
       user: this.props.user,

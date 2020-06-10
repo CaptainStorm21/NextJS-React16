@@ -1,7 +1,6 @@
 import React from 'react'
 
-const Profile = (props) => {
-    console.log(props);
+const Profile =(props)=> {
     return (
         <>
             <h1>Profile</h1>
@@ -10,6 +9,6 @@ const Profile = (props) => {
 }
 
 Profile.getInitialProps = ({ req }) => {
-    return { value : 'This is from the functional component Profiles' }
+    return 
 }
 export default Profile;

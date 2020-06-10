@@ -21,11 +21,10 @@ export default class Home extends Component {
     //                             console.log(response.data)
     //                           })
     // console.log(context);
-
+    
     console.log(pathname);
     console.log(res);
     console.log(req);
-    
     return {
       user: {
         name: "Francis",
