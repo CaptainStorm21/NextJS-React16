@@ -7,10 +7,7 @@ const MainLayout = (props) => (
     <Head>
       <title>Welcomet NextJS App</title>
       <link href="#" rel="stylesheet" />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
-        rel="stylesheet"
-      />
+<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
       <link
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
         rel="stylesheet"

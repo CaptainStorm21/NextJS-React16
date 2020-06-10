@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import MainLayout from "../components/layouts/mainLayout";
+import React, { Component } from 'react';
 
 export default class Contact extends Component {
   render() {

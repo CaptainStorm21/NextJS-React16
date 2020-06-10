@@ -8,7 +8,7 @@ const MainLayout = (props) => (
       <title>Welcomet NextJS App</title>
       <link href="#" rel="stylesheet" />
       <link
-        href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
+        href=""
         rel="stylesheet"
       />
       <link
