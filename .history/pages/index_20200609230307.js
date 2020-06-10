@@ -1,13 +1,12 @@
 import React, { Component } from "react";
-import MainLayout from "../components/layouts/MainLayout";
+// import Header from "../components/includes/Header";
 
 export default class Home extends Component {
   render() {
     return (
       <>
-        <MainLayout>
-          <h1>Welcome to NextJS</h1>
-        </MainLayout>
+        {/* <Header /> */}
+        <h1>Welcome to NextJS</h1>
       </>
     );
   }

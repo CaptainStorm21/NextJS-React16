@@ -5,9 +5,9 @@ export default class Home extends Component {
   render() {
     return (
       <>
-        <MainLayout>
-          <h1>Welcome to NextJS</h1>
-        </MainLayout>
+        <MainLayout >
+                <h1>Welcome to NextJS</h1>
+                </
       </>
     );
   }

@@ -3,7 +3,6 @@ import Link from "next/link";
 
 const Header = () => (
   <>
-    <h1>Nextjs app</h1>
     <nav>
       <Link href="/">
         <a>Home</a>
