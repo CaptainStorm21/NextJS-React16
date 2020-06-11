@@ -1,0 +1,26 @@
+.contact_static {
+  color: green;
+  background-color: yellow;
+}
+
+header {
+  background: #333333;
+}
+
+header .navbar-brand {
+  color: darkslategrey;
+  font-weight: 900;
+}
+
+header .navbar-nav .nav-item {
+  color: #ffffff !important;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  background-color:  seashell;
+}
+
+header {
+  background: lightseagreen; 
+}
