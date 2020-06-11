@@ -5,7 +5,7 @@ const Header = () => (
   <>
     <header>
       <div className="container">
-        <nav className="navbar navbar-expand navbar-light">
+        <nav className="navbar navbar-expand-lg navbar-expand-sm navbar-light">
           <Link href="/">
             <a className="navbar-brand">NextJS App</a>
           </Link>

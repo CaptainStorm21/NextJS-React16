@@ -5,12 +5,12 @@ const Header = () => (
   <>
     <header>
       <div className="container">
-        <nav className="navbar navbar-expand navbar-light">
+        <nav className="navbar navbar-expand-lg navbar-light">
           <Link href="/">
             <a className="navbar-brand">NextJS App</a>
           </Link>
 
-          <div className="collapse navbar-collapse ">
+          <div className="collapse navbar-collapse navbar-expand-sm">
             <div className="navbar-nav">
               <Link href="/">
                 <a className="nav-item nav-link">Home</a>

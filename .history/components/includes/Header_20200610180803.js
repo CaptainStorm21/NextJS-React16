@@ -4,8 +4,8 @@ import Link from "next/link";
 const Header = () => (
   <>
     <header>
-      <div className="container">
-        <nav className="navbar navbar-expand navbar-light">
+      <div className="container-fluid">
+        <nav class="navbar navbar-expand navbar-light bg-light">
           <Link href="/">
             <a className="navbar-brand">NextJS App</a>
           </Link>

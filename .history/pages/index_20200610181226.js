@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import axios from "axios";
 import MainLayout from "../components/layouts/MainLayout";
 // import '../styles/main.css'
-import MyStyle from "../static/css/main.css";
+import MyStyle from '../static/css/main.css';
 
 export default class Home extends Component {
   static async getInitialProps({ pathname, query, asPath, req, res }) {
