@@ -1,0 +1,40 @@
+{
+  "name": "nextjs-react16",
+  "version": "1.0.0",
+  "description": "NextJS - React ",
+  "main": "index.js",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.19.2",
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "dev": "node ",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "NextJS-React16"
+  },
+  "keywords": [
+    "Nextjs",
+    "React16",
+    "react",
+    "bootstrap",
+    "blog",
+    "cms",
+    "javascript",
+    "js",
+    "js",
+    "library",
+    "hooks"
+  ],
+  "author": "CaptainStorm21",
+  "license": "ISC"
+}
