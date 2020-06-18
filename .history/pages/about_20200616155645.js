@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import MainLayout from "../components/layouts/MainLayout";
-import Message from '../components/includes/message';
+import Message from '../'
 
 
 export default class about extends Component {
